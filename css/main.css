@@ -1,0 +1,87 @@
+/*****BASIC STYLE*****/
+
+div {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*****GRID*****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+.third-width {
+    width: 390px;
+    float: left;
+}
+/*****HEADER*****/
+h2 span {
+    color: #77a466;
+
+}
+header nav li {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #77a466;
+    display: inline-block;
+    padding: 0px 10px;
+    font-size: 14px;
+    float: left;
+}
+h2 {
+    text-transform: uppercase;
+}
+
+/*****ABOUT*****/
+
+#about h3 {
+    color: #77a466;
+    text-transform: uppercase;
+}
+#about p {
+    font-weight: bold;
+}
+
+/*****SECTIONS*****/
+
+#specials, #reviews, #contact h4 {
+    text-transform: uppercase;
+    font-size: 12px;
+}
+#specials ul li {
+    text-transform: none;
+    color: #77a466;
+    list-style: none;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+}
+#reviews p {
+    margin-left: 30px;
+    margin-right: 45px;
+    text-transform: none;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+}
+#contact p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/*****FOOTER*****/
+
+footer {
+    clear: both;
+}
+footer h3 {
+    margin-left: 460px;
+}
+footer span {
+    color: #77a466;
+    font-family: 'Pacifico', cursive;
+}
